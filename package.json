@@ -1,0 +1,20 @@
+{
+  "name": "ai-blog-slop",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "generate-blog": "node ./scripts/blog-generator.js"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^4.1.1",
+    "@astrojs/rss": "^4.0.12",
+    "astro": "^5.14.4",
+    "openai": "^6.9.0",
+    "preact": "^10.27.2"
+  }
+}
