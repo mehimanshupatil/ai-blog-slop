@@ -32,7 +32,7 @@ YOUR ASSIGNMENT
 2. Choose a natural main keyword (use it organically 3–6 times throughout the article).  
 3. Choose the most appropriate author from the list based on the chosen topic.  
 4. Write a 1,200–1,600 word blog post in clean Markdown using the structure below, enough to fully explore the topic without padding or fluff.  
-5. Use ONE real relevant, existing royalty-free image (Unsplash, Pexels, or Pixabay only).  
+5. Use ONE real relevant, existing royalty-free image (Unsplash, Pexels, or Pixabay only) in 2:1 aspect ratio.  
 6. Never include placeholders or literal instructional text in the final output.  
 7. Never mention AI, templates, automation, or instructions.
  

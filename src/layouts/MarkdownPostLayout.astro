@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import Warning from "../components/Warning";
+import FormattedDate from "../components/FormattedDate.astro";
 const { frontmatter } = Astro.props;
 ---
 
@@ -58,15 +59,13 @@ const { frontmatter } = Astro.props;
     )}
     client:load
   />
-  <p>{frontmatter.pubDate.toLocaleDateString()}</p>
+  <p>
+    <FormattedDate date={frontmatter.pubDate} />
+  </p>
   <p><em>{frontmatter.description}</em></p>
   <p>Written by: {frontmatter.author}</p>
   <figure style="text-align: center;width: inherit;margin:0">
-    <img
-      src={frontmatter.image.url}
-      alt={frontmatter.image.alt}
-      style="width: inherit;"
-    />
+    <img class="img" src={frontmatter.image.url} alt={frontmatter.image.alt} />
     {
       frontmatter.image.caption && (
         <figcaption style="font-size: 0.9rem; color: #666 ;">
@@ -92,7 +91,12 @@ const { frontmatter } = Astro.props;
   a {
     color: #00539f;
   }
-
+  .img {
+    width: inherit;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+    border-radius: 0.5em;
+  }
   .tags {
     display: flex;
     flex-wrap: wrap;

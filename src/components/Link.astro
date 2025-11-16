@@ -1,6 +1,12 @@
 ---
-const { href, message } = Astro.props
+type Props = {
+  href: string;
+  message: string;
+};
+
+const { href, message } = Astro.props;
 ---
+
 <a href={href}>{message}</a>
 
 <style>

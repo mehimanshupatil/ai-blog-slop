@@ -11,8 +11,8 @@ export default function Warning({
     borderRadius = 8,
     rotationSpeed = 0.5 // degrees per frame
 }) {
-    const canvasRef = useRef(null);
-    const animationRef = useRef(null);
+    const canvasRef = useRef<HTMLCanvasElement>(null);
+    const animationRef = useRef<number>(null);
     const rotationRef = useRef(0);
 
     useEffect(() => {
@@ -21,6 +21,8 @@ export default function Warning({
 
         const ctx = canvas.getContext('2d');
         const dpr = window.devicePixelRatio || 1;
+
+        if(!ctx) return;
 
         // Measure text to size canvas appropriately
         ctx.font = `${fontSize}px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif`;
