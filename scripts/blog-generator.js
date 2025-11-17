@@ -47,7 +47,7 @@ pubDate: YYYY-MM-DD
 description: "An engaging 150–160 character summary that feels written by a real human"
 author: "<One name from: Aanya Mehra, Rohan Deshpande, Kavita Rao, Arjun Malhotra, Nisha Verma, Devika Iyer>"
 image:
-  url: "<working stock photo URL>"
+  url: "https://actual-working-image-url.com"
   alt: "<clear description of the image>"
   caption: "Image credit: <source or photographer>"
   creditUrl: "<direct link to the source>"
@@ -104,9 +104,10 @@ AVOID
 - Overly polished perfection  
 
 IMAGES  
-- Must be a REAL working URL from Unsplash/Pexels/Pixabay  
-- Alt text must describe what’s actually visible  
-- The image must follow roughly a 2:1 aspect ratio (e.g., 2000×1000)
+- Only use real URLs from Unsplash, Pexels, or Pixabay  
+- Choose images that genuinely fit the content  
+- Alt text must clearly describe what's shown  
+- The selected image must visibly follow a 2:1 aspect ratio (e.g., 2000×1000, 1600×800).
 
 THE HUMAN TOUCH  
 - Add small personal insights  
