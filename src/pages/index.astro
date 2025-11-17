@@ -3,10 +3,15 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Warning from "../components/Warning";
 import Link from "../components/Link.astro";
 const pageTitle = "Home Page";
+const pageDesc =
+  "Fresh articles written daily — from team of authors around world across wellness, productivity, tech, food, travel, finance, and lifestyle.";
 ---
 
-<BaseLayout pageTitle={pageTitle} pageDescription="">
-  <h2>My blog</h2>
+<BaseLayout pageTitle={pageTitle} pageDescription={pageDesc}>
+  <h2>Read Something New</h2>
+  <p class="intro">
+    {pageDesc}
+  </p>
   <br /><br />
   <Warning
     message={String.fromCharCode(
