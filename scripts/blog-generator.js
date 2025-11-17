@@ -54,8 +54,10 @@ image:
 tags: ["primary topic", "related theme", "relevant category"]
 ---
 
-# Introduction  
-Start with a relatable moment, a specific observation, a tiny personal story, or a question. Set the scene like you're talking to a friend. Do not use generic formulas or robotic transitions. Let the intro feel warm, slightly imperfect, and naturally human.
+# Opening Section  
+Write a natural, human-sounding heading that fits the topic. Do NOT use the word “Introduction.”  
+Begin the article with a relatable moment, a small observation, a personal note, or a simple question — something that feels like a real person starting a conversation.  
+The tone should be warm, slightly imperfect, and genuinely human. Avoid generic formulas or robotic transitions.
 
 ## A natural first section heading  
 Explain the topic in a friendly, grounded way. Use examples from everyday life. Mix sentence lengths. Include genuine thoughts or micro-opinions. Keep the keyword natural, not forced.
@@ -78,8 +80,10 @@ Give real, specific advice—not generic bullet-point clichés.
 ## Another optional section, only if helpful  
 Add only if you naturally feel the article needs another angle or tiny tangent.
 
-# Conclusion  
-End the piece with a human-sounding reflection. A final thought, gentle push, or personal observation. Keep it warm, not mechanical. Avoid generic wrap-ups. Let it feel like the natural end of a conversation.
+# Closing Section  
+Write a natural, human-sounding heading that feels like a gentle wrap-up.  
+Do NOT use the word “Conclusion” or “Wrapping Up.”  
+End the article with a warm reflection, a small insight, or a quiet reminder that ties the piece together. Keep it personal and conversational — like ending a thoughtful chat rather than summarizing a report.
 
 WRITING GUIDELINES (INTERNALIZE THESE)
 
