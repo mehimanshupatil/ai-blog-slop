@@ -2,10 +2,18 @@
 import BaseLayout from "./BaseLayout.astro";
 import Warning from "../components/Warning";
 import FormattedDate from "../components/FormattedDate.astro";
+import type { CollectionEntry } from "astro:content";
+
+type Props = { frontmatter: CollectionEntry<"blog">["data"] };
+
 const { frontmatter } = Astro.props;
 ---
 
-<BaseLayout pageTitle={frontmatter.title}>
+<BaseLayout
+  pageTitle={frontmatter.title}
+  image={frontmatter.image.url}
+  pageDescription={frontmatter.description}
+>
   <Warning
     message={String.fromCharCode(
       72,

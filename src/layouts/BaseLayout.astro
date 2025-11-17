@@ -10,7 +10,13 @@ import FallbackImage4 from "../assets/blog-placeholder-5.jpg";
 const images = [FallbackImage1, FallbackImage2, FallbackImage3, FallbackImage4];
 const FallbackImage = images[Math.floor(Math.random() * images.length)];
 
-const { pageTitle, image = FallbackImage } = Astro.props;
+type Props = {
+  pageTitle: string;
+  image?: ImageMetadata | string;
+  pageDescription: string;
+};
+
+const { pageTitle, image = FallbackImage, pageDescription } = Astro.props;
 ---
 
 <html lang="en">
@@ -47,15 +53,25 @@ const { pageTitle, image = FallbackImage } = Astro.props;
     <meta property="og:type" content="website" />
     <meta property="og:url" content={Astro.url} />
     <meta property="og:title" content={pageTitle} />
-    <meta property="og:description" content={""} />
-    <meta property="og:image" content={new URL(image.src, Astro.url)} />
+    <meta property="og:description" content={pageDescription} />
+    <meta
+      property="og:image"
+      content={typeof image === "string"
+        ? image
+        : new URL(image.src, Astro.url)}
+    />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content={Astro.url} />
     <meta property="twitter:title" content={pageTitle} />
-    <meta property="twitter:description" content={""} />
-    <meta property="twitter:image" content={new URL(image.src, Astro.url)} />
+    <meta property="twitter:description" content={pageDescription} />
+    <meta
+      property="twitter:image"
+      content={typeof image === "string"
+        ? image
+        : new URL(image.src, Astro.url)}
+    />
 
     <script
       async

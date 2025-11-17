@@ -1,6 +1,5 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import BlogPost from "../../components/BlogPost.astro";
 import { getAllPostSorted } from "../../helpers/helper";
 import BlogList from "../../components/BlogList.astro";
 
@@ -8,7 +7,7 @@ const pageTitle = "My Learning Blog";
 const allPosts = await getAllPostSorted();
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageTitle={pageTitle} pageDescription="">
   <p>This is where I will post about my journey learning about things.</p>
   <BlogList posts={allPosts} />
 </BaseLayout>
