@@ -49,7 +49,7 @@ image:
   url: "https://actual-working-image-url.com"
   alt: "Brief, descriptive alt text"
   caption: "Image credit: <source or photographer>"
-  captionUrl: "https://image-credit-url.com"
+  creditUrl: "https://image-credit-url.com"
 tags: ["primary topic", "related theme", "relevant category"]
 ---
 

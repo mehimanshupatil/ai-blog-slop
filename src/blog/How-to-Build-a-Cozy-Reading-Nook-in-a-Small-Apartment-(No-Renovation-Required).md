@@ -7,7 +7,7 @@ image:
   url: "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=2000&q=80"
   alt: "A small apartment corner with an armchair, throw blanket, floor lamp, and a bookshelf — a cozy reading nook"
   caption: "Image credit: Annie Spratt / Unsplash"
-  captionUrl: "https://unsplash.com/photos/1519681393784"
+  creditUrl: "https://unsplash.com/photos/1519681393784"
 tags: ["home decor", "reading", "small space"]
 ---
 

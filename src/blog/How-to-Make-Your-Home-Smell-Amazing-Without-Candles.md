@@ -7,7 +7,7 @@ image:
   url: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=2000&h=1000&fit=crop"
   alt: "A mason jar with fresh herbs and citrus slices on a wooden kitchen table"
   caption: "Image credit: Unsplash"
-  captionUrl: "https://unsplash.com"
+  creditUrl: "https://unsplash.com"
 tags: ["home", "DIY", "natural living"]
 ---
 
