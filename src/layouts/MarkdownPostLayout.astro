@@ -15,6 +15,9 @@ const { frontmatter } = Astro.props;
   description={frontmatter.description}
 >
   <article>
+    <h1>
+      {frontmatter.title}
+    </h1>
     <Warning
       message={String.fromCharCode(
         119,
